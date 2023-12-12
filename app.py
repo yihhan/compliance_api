@@ -332,4 +332,4 @@ if __name__ == '__main__':
     ibm_api_key = os.getenv("IBM_API_KEY", None)
     ibm_cloud_url = os.getenv("IBM_CLOUD_URL", None)
 
-    app.run(debug=True)
+    app.run(host="0.0.0.0", debug=True)
